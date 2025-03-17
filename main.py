@@ -16,7 +16,7 @@ def main():
     print(table)
 
     # Contexto del asistente
-    context = [{"role": "system", "content": "Eres un asistente muy útil."}]
+    context = [{"role": "system", "content": "Eres un asistente muy útil y servicial."}]
     messages = context.copy()
 
     while True:
